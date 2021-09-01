@@ -10,13 +10,13 @@ public class ChipsManager : MonoBehaviour
     private Transform chipTransform;
     private float smoothing = 5f;
     private Vector3 targetPos;
-    private bool p1turn = true;
+    private bool p1_turn = true;
 
-    public bool P1turn { set {p1turn = value;} }
+    public bool P1_turn { set {p1_turn = value;} }
     
     public void MoveChipTo(int btnNum)
     {
-        if (p1turn)
+        if (p1_turn)
             chipTransform = p1chips[0].transform;
         else
             chipTransform = p2chips[0].transform;
@@ -34,9 +34,9 @@ public class ChipsManager : MonoBehaviour
             yield return null;
         }
 
-        if (p1turn)
+        if (p1_turn)
             p1chips.RemoveAt(0);
         else
-            p1chips.RemoveAt(0);
+            p2chips.RemoveAt(0);
     }
 }
