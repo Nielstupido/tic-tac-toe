@@ -1263,7 +1263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 1}
+  m_Color: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1374,6 +1374,7 @@ GameObject:
   - component: {fileID: 1404283263}
   - component: {fileID: 1404283265}
   - component: {fileID: 1404283264}
+  - component: {fileID: 1404283266}
   m_Layer: 5
   m_Name: ChipsHolder
   m_TagString: Untagged
@@ -1447,6 +1448,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404283262}
   m_CullTransparentMesh: 1
+--- !u!114 &1404283266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404283262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d4577add6e1f0d47a743caf1d4c12a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeHolders:
+  - {fileID: 645364485}
+  - {fileID: 777348708}
+  - {fileID: 569176230}
+  - {fileID: 618872987}
+  - {fileID: 977837341}
+  - {fileID: 135567243}
+  - {fileID: 1209566897}
+  - {fileID: 1997349477}
+  - {fileID: 557958052}
 --- !u!1 &1412792831
 GameObject:
   m_ObjectHideFlags: 0
