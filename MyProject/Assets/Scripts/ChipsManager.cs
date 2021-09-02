@@ -7,13 +7,17 @@ public class ChipsManager : MonoBehaviour
     [SerializeField]private GameObject[] placeHolders;
     [SerializeField]private List<GameObject> p1chips;
     [SerializeField]private List<GameObject> p2chips;
+    private PlayerTurnManager playerTurnManager;
     private Transform chipTransform;
-    private float smoothing = 5f;
+    private float smoothing = 6f;
     private Vector3 targetPos;
     private bool p1_turn = true;
 
-    public bool P1_turn { set {p1_turn = value;} }
-    
+    void Start()
+    {
+        playerTurnManager = FindObjectOfType<PlayerTurnManager>();
+    }
+
     public void MoveChipTo(int btnNum)
     {
         if (p1_turn)
@@ -38,5 +42,9 @@ public class ChipsManager : MonoBehaviour
             p1chips.RemoveAt(0);
         else
             p2chips.RemoveAt(0);
+
+        p1_turn = !p1_turn;
+        playerTurnManager.SwitchPlayerTurn(p1_turn);
+        playerTurnManager.ToggleTouchInputCover();
     }
 }

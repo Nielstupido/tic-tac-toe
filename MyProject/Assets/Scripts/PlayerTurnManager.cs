@@ -4,8 +4,8 @@ using UnityEngine.UI;
 public class PlayerTurnManager : MonoBehaviour
 {
     [SerializeField]private Text playerTurnText;
+    [SerializeField]private GameObject screenCover;
     private ChipsManager chipsManager;
-    private bool p1_turn = true;
 
     void Start()
     {
@@ -13,11 +13,13 @@ public class PlayerTurnManager : MonoBehaviour
         Debug.Log("Game Start! /n Player 1's turn!");  
     }
 
-    public void SwitchPlayerTurn()
+    public void ToggleTouchInputCover()
     {
-        chipsManager.P1_turn = p1_turn;
-        p1_turn = !p1_turn;
+        screenCover.SetActive(!screenCover.activeSelf);
+    }
 
+    public void SwitchPlayerTurn(bool p1_turn)
+    {
         if (p1_turn)
             playerTurnText.text = "Player 1's turn";
         else

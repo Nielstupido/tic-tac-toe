@@ -16,9 +16,10 @@ public class ButtonManager : MonoBehaviour
 
     public void PassButtonDets()
     {
+        playerTurnManager.ToggleTouchInputCover();
+
         buttonNum = Convert.ToInt32(EventSystem.current.currentSelectedGameObject.name);
         EventSystem.current.currentSelectedGameObject.gameObject.SetActive(false);
-        playerTurnManager.SwitchPlayerTurn();
         chipsManager.MoveChipTo(buttonNum);
     }
 }
