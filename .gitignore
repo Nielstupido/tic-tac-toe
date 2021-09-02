@@ -58,3 +58,344 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+MyProject/Assets/Photon.meta
+MyProject/Assets/Photon/PhotonLibs.meta
+MyProject/Assets/Photon/PhotonLibs/changes-library.txt
+MyProject/Assets/Photon/PhotonLibs/changes-library.txt.meta
+MyProject/Assets/Photon/PhotonLibs/Metro.meta
+MyProject/Assets/Photon/PhotonLibs/Metro/Photon3Unity3D.dll
+MyProject/Assets/Photon/PhotonLibs/Metro/Photon3Unity3D.dll.meta
+MyProject/Assets/Photon/PhotonLibs/Metro/Photon3Unity3D.pri
+MyProject/Assets/Photon/PhotonLibs/Metro/Photon3Unity3D.pri.meta
+MyProject/Assets/Photon/PhotonLibs/netstandard2.0.meta
+MyProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.deps.json
+MyProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.deps.json.meta
+MyProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+MyProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll.meta
+MyProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml
+MyProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml.meta
+MyProject/Assets/Photon/PhotonLibs/Photon3Unity3D.dll
+MyProject/Assets/Photon/PhotonLibs/Photon3Unity3D.dll.meta
+MyProject/Assets/Photon/PhotonLibs/Photon3Unity3D.xml
+MyProject/Assets/Photon/PhotonLibs/Photon3Unity3D.xml.meta
+MyProject/Assets/Photon/PhotonLibs/WebSocket.meta
+MyProject/Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs
+MyProject/Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs.meta
+MyProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll
+MyProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll.meta
+MyProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.README
+MyProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.README.meta
+MyProject/Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs
+MyProject/Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs.meta
+MyProject/Assets/Photon/PhotonLibs/WebSocket/WebSocket.jslib
+MyProject/Assets/Photon/PhotonLibs/WebSocket/WebSocket.jslib.meta
+MyProject/Assets/Photon/PhotonNetworking-Documentation.chm
+MyProject/Assets/Photon/PhotonNetworking-Documentation.chm.meta
+MyProject/Assets/Photon/PhotonNetworking-Documentation.pdf
+MyProject/Assets/Photon/PhotonNetworking-Documentation.pdf.meta
+MyProject/Assets/Photon/PhotonRealtime.meta
+MyProject/Assets/Photon/PhotonRealtime/Code.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/AppSettings.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/AppSettings.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/changes-realtime.txt
+MyProject/Assets/Photon/PhotonRealtime/Code/changes-realtime.txt.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/ConnectionHandler.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/ConnectionHandler.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/CustomTypesUnity.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/CustomTypesUnity.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/Extensions.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/Extensions.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/FriendInfo.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/FriendInfo.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/PhotonPing.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/PhotonPing.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/PhotonPingClasses.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/PhotonPingClasses.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef
+MyProject/Assets/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/Player.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/Player.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/Region.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/Region.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/RegionHandler.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/RegionHandler.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/Room.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/Room.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/RoomInfo.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/RoomInfo.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/SupportLogger.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/SupportLogger.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/Unity.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/Unity/Editor.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/Unity/Editor/AccountService.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/Unity/Editor/AccountService.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/Unity/Editor/PhotonEditorUtils.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/Unity/Editor/PhotonEditorUtils.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/Unity/PhotonAppSettings.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/Unity/PhotonAppSettings.cs.meta
+MyProject/Assets/Photon/PhotonRealtime/Code/WebRpc.cs
+MyProject/Assets/Photon/PhotonRealtime/Code/WebRpc.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/changelog.txt
+MyProject/Assets/Photon/PhotonUnityNetworking/changelog.txt.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/CustomTypes.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/CustomTypes.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/CopyIcon.png
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/CopyIcon.png.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/CopyIconPro.png
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/CopyIconPro.png.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/help.png
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/help.png.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonEditor.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonEditor.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonGUI.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonGUI.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewHandler.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewHandler.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewInspector.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewInspector.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PunGradient.png
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PunGradient.png.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettings.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettings.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsFile.asset
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsFile.asset.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsInspector.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsInspector.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/ReordableList.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/ReordableList/LICENSE.txt
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/ReordableList/LICENSE.txt.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/ReordableList/ReorderableListResources.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/ReordableList/ReorderableListResources.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/ServerSettingsInspector.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/ServerSettingsInspector.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/MonoBehaviourPunEditor.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/MonoBehaviourPunEditor.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonAnimatorViewEditor.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonAnimatorViewEditor.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbody2DViewEditor.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbody2DViewEditor.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbodyViewEditor.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbodyViewEditor.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewClassicEditor.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewClassicEditor.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewEditor.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewEditor.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Enums.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Enums.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Interfaces.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPhotonViewCallbacks.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPhotonViewCallbacks.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPunCallbacks.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPunCallbacks.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PhotonStreamQueue.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PhotonStreamQueue.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PunClasses.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/PunClasses.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/ServerSettings.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/ServerSettings.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Utilities.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Utilities/NestedComponentUtilities.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Utilities/NestedComponentUtilities.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Views.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonAnimatorView.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonAnimatorView.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbody2DView.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbody2DView.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbodyView.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbodyView.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformView.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformView.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformViewClassic.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformViewClassic.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Icons.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png
+MyProject/Assets/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp128.png
+MyProject/Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp128.png.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png
+MyProject/Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp48.png
+MyProject/Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp48.png.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png
+MyProject/Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/link.xml
+MyProject/Assets/Photon/PhotonUnityNetworking/link.xml.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/readme.txt
+MyProject/Assets/Photon/PhotonUnityNetworking/readme.txt.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Resources.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+MyProject/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullArea.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullArea.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullingHandler.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullingHandler.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/CullAreaEditor.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/CullAreaEditor.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonLagSimulationGui.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonLagSimulationGui.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonStatsGui.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonStatsGui.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PointedAtGameObjectInfo.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PointedAtGameObjectInfo.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/StatesGui.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/StatesGui.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonTeamsManagerInspector.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonTeamsManagerInspector.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PlayerNumberingInspector.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PlayerNumberingInspector.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PunTeamsInspector.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PunTeamsInspector.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PhotonTeamsManager.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PhotonTeamsManager.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PlayerNumbering.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PlayerNumbering.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunPlayerScores.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunPlayerScores.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunTeams.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunTeams.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonView.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonView/SmoothSyncMovement.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonView/SmoothSyncMovement.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/ConnectAndJoinRandom.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/ConnectAndJoinRandom.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/MoveByKeys.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/MoveByKeys.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickDestroy.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickDestroy.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickInstantiate.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickInstantiate.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickRpc.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickRpc.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnEscapeQuit.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnEscapeQuit.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnJoinedInstantiate.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnJoinedInstantiate.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnStartDelete.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnStartDelete.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Room.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Room/CountdownTimer.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/Room/CountdownTimer.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/TurnBased.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/TurnBased/PunTurnManager.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/TurnBased/PunTurnManager.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/ButtonInsideScrollList.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/ButtonInsideScrollList.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/EventSystemSpawner.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/EventSystemSpawner.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/GraphicToggleIsOnTransition.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/GraphicToggleIsOnTransition.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/OnPointerOverTooltip.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/OnPointerOverTooltip.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TabViewManager.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TabViewManager.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextButtonTransition.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextButtonTransition.cs.meta
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextToggleIsOnTransition.cs
+MyProject/Assets/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextToggleIsOnTransition.cs.meta
+MyProject/Assets/TextMesh Pro.meta
+MyProject/Assets/TextMesh Pro/Documentation.meta
+MyProject/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+MyProject/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+MyProject/Assets/TextMesh Pro/Fonts.meta
+MyProject/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+MyProject/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+MyProject/Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+MyProject/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+MyProject/Assets/TextMesh Pro/Resources.meta
+MyProject/Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+MyProject/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+MyProject/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+MyProject/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+MyProject/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+MyProject/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+MyProject/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+MyProject/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+MyProject/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+MyProject/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+MyProject/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+MyProject/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+MyProject/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+MyProject/Assets/TextMesh Pro/Resources/Sprite Assets.meta
+MyProject/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+MyProject/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+MyProject/Assets/TextMesh Pro/Resources/Style Sheets.meta
+MyProject/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+MyProject/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+MyProject/Assets/TextMesh Pro/Resources/TMP Settings.asset
+MyProject/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+MyProject/Assets/TextMesh Pro/Shaders.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+MyProject/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMPro.cginc
+MyProject/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+MyProject/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+MyProject/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+MyProject/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+MyProject/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+MyProject/Assets/TextMesh Pro/Sprites.meta
+MyProject/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+MyProject/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+MyProject/Assets/TextMesh Pro/Sprites/EmojiOne.json
+MyProject/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+MyProject/Assets/TextMesh Pro/Sprites/EmojiOne.png
+MyProject/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
