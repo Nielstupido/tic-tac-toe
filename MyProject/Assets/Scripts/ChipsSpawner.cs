@@ -16,11 +16,6 @@ public class ChipsSpawner : MonoBehaviour
         {
             GameObject chip = PhotonNetwork.Instantiate(chipPrefab.name, Vector3.zero, Quaternion.identity);
             chipsManager.playerChips.Add(chip);
-
-            if (PlayerPrefs.GetInt("PlayerNum") == 1)
-                chip.transform.SetParent(GameObject.Find("P1chips").transform, false);
-            else if(PlayerPrefs.GetInt("PlayerNum") == 2)
-                chip.transform.SetParent(GameObject.Find("P2chips").transform, false);
         }
     }
 }
