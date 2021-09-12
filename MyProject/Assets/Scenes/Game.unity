@@ -1835,7 +1835,8 @@ MonoBehaviour:
   - {fileID: 1209566897}
   - {fileID: 1997349477}
   - {fileID: 557958052}
-  playerChips: []
+  playerChips1: []
+  playerChips2: []
 --- !u!114 &1404283267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1848,7 +1849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7232cbb034397514fb71e7bea5484480, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chipPrefab: {fileID: 8316693260256547941, guid: 11772a40108f6b344ac0839106519bc5, type: 3}
+  chipPrefab: {fileID: 7190781856317435117, guid: 11772a40108f6b344ac0839106519bc5, type: 3}
   chipParent1: {fileID: 88800360}
   chipParent2: {fileID: 864457604}
 --- !u!1 &1412792831

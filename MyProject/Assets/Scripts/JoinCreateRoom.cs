@@ -9,14 +9,14 @@ public class JoinCreateRoom : MonoBehaviourPunCallbacks
 
     public void CreateRoom()
     {
-        PhotonNetwork.CreateRoom(roomNameCreate.text);
         PlayerPrefs.SetInt("PlayerNum", 1);
+        PhotonNetwork.CreateRoom(roomNameCreate.text);
     }
 
     public void JoinRoom()
     {
-        PhotonNetwork.JoinRoom(roomNameJoin.text);
         PlayerPrefs.SetInt("PlayerNum", 2);
+        PhotonNetwork.JoinRoom(roomNameJoin.text);
     }
 
     public override void OnJoinedRoom()
