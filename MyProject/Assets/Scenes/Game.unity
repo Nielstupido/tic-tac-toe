@@ -1849,9 +1849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7232cbb034397514fb71e7bea5484480, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chipPrefab: {fileID: 7190781856317435117, guid: 11772a40108f6b344ac0839106519bc5, type: 3}
-  chipParent1: {fileID: 88800360}
-  chipParent2: {fileID: 864457604}
+  chipPrefab: {fileID: 5367589753487287757, guid: 5032be947bc4db04fa2a6979fb60a102, type: 3}
 --- !u!1 &1412792831
 GameObject:
   m_ObjectHideFlags: 0

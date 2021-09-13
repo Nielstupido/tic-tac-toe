@@ -10,7 +10,6 @@ public class MenuNavigation : MonoBehaviour
 
     public void OpenLobby()
     {
-        Debug.Log("dfsdf");
         SceneManager.LoadScene("Loading");
     }
 }

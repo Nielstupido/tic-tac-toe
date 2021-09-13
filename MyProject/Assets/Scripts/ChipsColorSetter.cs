@@ -3,11 +3,11 @@ using UnityEngine.UI;
 
 public class ChipsColorSetter : MonoBehaviour
 {
-    void Awake()
+    void Start()
     {
         if (PlayerPrefs.GetInt("PlayerNum") == 1)
             gameObject.GetComponent<Image>().color = Color.blue;
-        else if (PlayerPrefs.GetInt("PlayerNum") == 2)
+        else 
             gameObject.GetComponent<Image>().color = Color.red;
     }
 }

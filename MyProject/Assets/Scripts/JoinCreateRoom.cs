@@ -6,6 +6,8 @@ public class JoinCreateRoom : MonoBehaviourPunCallbacks
 {
     [SerializeField]private InputField roomNameCreate;
     [SerializeField]private InputField roomNameJoin;
+    [SerializeField]private GameObject waitingWindow;
+    private int playerCountReady = 0;
 
     public void CreateRoom()
     {
@@ -21,6 +23,20 @@ public class JoinCreateRoom : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        PhotonNetwork.LoadLevel("Game");
+        waitingWindow.SetActive(true);
+    }
+
+    public void OnReady()
+    {
+        this.photonView.RPC("AddPlayerCount", RpcTarget.All);
+    }
+
+    [PunRPC]
+    void AddPlayerCount()
+    {
+        playerCountReady++;
+
+        if (playerCountReady == 2)
+            PhotonNetwork.LoadLevel("Game");
     }
 }
