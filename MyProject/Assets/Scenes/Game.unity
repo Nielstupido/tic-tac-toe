@@ -1835,8 +1835,7 @@ MonoBehaviour:
   - {fileID: 1209566897}
   - {fileID: 1997349477}
   - {fileID: 557958052}
-  playerChips1: []
-  playerChips2: []
+  playerChips: []
 --- !u!114 &1404283267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2351,6 +2350,7 @@ GameObject:
   - component: {fileID: 1893842762}
   - component: {fileID: 1893842764}
   - component: {fileID: 1893842765}
+  - component: {fileID: 1893842766}
   m_Layer: 5
   m_Name: Table
   m_TagString: Untagged
@@ -2450,6 +2450,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTurnText: {fileID: 1475348071}
   screenCover: {fileID: 1063363186}
+--- !u!114 &1893842766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893842760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 1
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1900162046
 GameObject:
   m_ObjectHideFlags: 0

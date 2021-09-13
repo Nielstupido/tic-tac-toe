@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
+using Photon.Pun;
 
-public class PlayerTurnManager : MonoBehaviour
+public class PlayerTurnManager : MonoBehaviourPunCallbacks
 {
     [SerializeField]private Text playerTurnText;
     [SerializeField]private GameObject screenCover;
@@ -22,7 +23,13 @@ public class PlayerTurnManager : MonoBehaviour
         screenCover.SetActive(!screenCover.activeSelf);
     }
 
-    public void SwitchPlayerTurn()
+    public void ToggleSwitchPlayer()
+    {
+        this.photonView.RPC("SwitchPlayerTurn", RpcTarget.All);
+    }
+
+    [PunRPC]
+    void SwitchPlayerTurn()
     {
         p1turn = !p1turn;
         if (p1turn)

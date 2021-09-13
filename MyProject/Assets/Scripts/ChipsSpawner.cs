@@ -5,7 +5,7 @@ public class ChipsSpawner : MonoBehaviour
 {
    [SerializeField]private GameObject chipPrefab;
 
-    void Start()
+    void Awake()
     {
         for (int i = 0; i < 3; i++)
         {

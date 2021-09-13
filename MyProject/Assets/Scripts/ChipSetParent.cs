@@ -2,28 +2,18 @@ using UnityEngine;
 
 public class ChipSetParent : MonoBehaviour
 {
-    void Awake()
+    private Transform chipParent;
+
+    void Start()
     {
         ChipsManager chipsManager = FindObjectOfType<ChipsManager>();
-        if (PlayerPrefs.GetInt("PlayerNum") == 1)
-        {
-            chipsManager.playerChips1.Add(gameObject);
-        }
-        else if (PlayerPrefs.GetInt("PlayerNum") == 2)
-        {
-            chipsManager.playerChips2.Add(gameObject);
-        }
-
+        chipsManager.playerChips.Add(this.gameObject);
 
         if (PlayerPrefs.GetInt("PlayerNum") == 1)
-        {
-            Transform chipParent = GameObject.Find("P1chips").transform;
-            transform.SetParent(chipParent, false);
-        }
-        else if(PlayerPrefs.GetInt("PlayerNum") == 2)
-        {
-            Transform chipParent = GameObject.Find("P2chips").transform;
-            transform.SetParent(chipParent, false);
-        }
+            chipParent = GameObject.Find("P1chips").transform;
+        else 
+            chipParent = GameObject.Find("P2chips").transform;
+        
+        transform.SetParent(chipParent, false);
     }
 }
