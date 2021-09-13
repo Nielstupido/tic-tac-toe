@@ -1,6 +1,7 @@
 using UnityEngine;
+using Photon.Pun;
 
-public class ChipSetParent : MonoBehaviour
+public class ChipSetParent : MonoBehaviourPunCallbacks
 {
     private Transform chipParent;
 
@@ -9,6 +10,12 @@ public class ChipSetParent : MonoBehaviour
         ChipsManager chipsManager = FindObjectOfType<ChipsManager>();
         chipsManager.playerChips.Add(this.gameObject);
 
+        this.photonView.RPC("SetParent", RpcTarget.All);
+    }
+
+    [PunRPC]
+    void SetParent()
+    {
         if (PlayerPrefs.GetInt("PlayerNum") == 1)
             chipParent = GameObject.Find("P1chips").transform;
         else 
