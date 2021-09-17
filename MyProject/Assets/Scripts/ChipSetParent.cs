@@ -3,24 +3,34 @@ using Photon.Pun;
 
 public class ChipSetParent : MonoBehaviourPunCallbacks
 {
-    private Transform chipParent;
+    private Transform newParent;
+
 
     void Start()
     {
-        ChipsManager chipsManager = FindObjectOfType<ChipsManager>();
-        chipsManager.playerChips.Add(this.gameObject);
+        Debug.Log("chipInstantiated");
 
+        if (photonView.IsMine)
+        {
+            if (PlayerPrefs.GetInt("PlayerNum") == 1)
+                newParent = GameObject.Find("P1chips").transform;
+            else
+                newParent = GameObject.Find("P2chips").transform;
+        }
+        else
+        {
+            if (PlayerPrefs.GetInt("PlayerNum") == 1)
+                newParent = GameObject.Find("P2chips").transform;
+            else
+                newParent = GameObject.Find("P1chips").transform;
+        }
+        
         this.photonView.RPC("SetParent", RpcTarget.All);
     }
 
     [PunRPC]
     void SetParent()
     {
-        if (PlayerPrefs.GetInt("PlayerNum") == 1)
-            chipParent = GameObject.Find("P1chips").transform;
-        else 
-            chipParent = GameObject.Find("P2chips").transform;
-        
-        transform.SetParent(chipParent, false);
+        transform.SetParent(newParent, false);
     }
 }
