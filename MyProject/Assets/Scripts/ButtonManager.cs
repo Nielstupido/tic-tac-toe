@@ -1,8 +1,9 @@
 using UnityEngine;
 using System;
 using UnityEngine.EventSystems;
+using Photon.Pun;
 
-public class ButtonManager : MonoBehaviour
+public class ButtonManager : MonoBehaviourPunCallbacks
 {
     private int buttonNum;
     private ChipsManager chipsManager;
@@ -20,8 +21,14 @@ public class ButtonManager : MonoBehaviour
         {
             playerTurnManager.ToggleTouchInputCover();
             buttonNum = Convert.ToInt32(EventSystem.current.currentSelectedGameObject.name);
-            EventSystem.current.currentSelectedGameObject.gameObject.SetActive(false);
+            photonView.RPC("DisableButton", RpcTarget.All);
             chipsManager.MoveChipTo(buttonNum);
         }
+    }
+
+    [PunRPC]
+    void DisableButton()
+    {
+        EventSystem.current.currentSelectedGameObject.gameObject.SetActive(false);
     }
 }
