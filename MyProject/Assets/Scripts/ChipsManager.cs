@@ -4,8 +4,12 @@ using System.Collections.Generic;
 
 public class ChipsManager : MonoBehaviour
 {
+    public delegate void DoneMovingChip();
+    public static event DoneMovingChip OnFinishedMovingChip;
+
     [SerializeField]private GameObject[] placeHolders;
     private PlayerTurnManager playerTurnManager;
+    private GameArbiter gameArbiter;
     private Transform chipTransform;
     private float smoothing = 6f;
     private Vector3 targetPos;
@@ -15,6 +19,7 @@ public class ChipsManager : MonoBehaviour
     void Start()
     {
         playerTurnManager = FindObjectOfType<PlayerTurnManager>();
+        gameArbiter = FindObjectOfType<GameArbiter>();
     }
 
     public void MoveChipTo(int btnNum)
@@ -34,8 +39,8 @@ public class ChipsManager : MonoBehaviour
         }
 
         playerChips.RemoveAt(0);
+        gameArbiter.CheckMatrix();
         
-        playerTurnManager.ToggleSwitchPlayer();
-        playerTurnManager.ToggleTouchInputCover();
+        OnFinishedMovingChip();
     }
 }

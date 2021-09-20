@@ -5,7 +5,12 @@ public class GameArbiter : MonoBehaviour
     private int[,] tableMatrix = new int[3,3];
     private int buttonNum;
 
-    public int AddMark { set {buttonNum = value;}}
+    public int ButtonNumPressed { set {buttonNum = value; MarkMatrix(); } }
+
+    void OnDisable()
+    {
+        ChipsManager.OnFinishedMovingChip -= AnnounceWinner;   
+    }
 
     void MarkMatrix()
     {
@@ -50,8 +55,44 @@ public class GameArbiter : MonoBehaviour
     }
 
 
-    void CheckMatrix()
+    public void CheckMatrix()
     {
-        
+        if (tableMatrix[0,0] == 1 && tableMatrix[0,1] == 1 && tableMatrix[0,2] ==1)
+        {
+
+        }
+        else if (tableMatrix[1,0] == 1 && tableMatrix[1,1] == 1 && tableMatrix[1,2] ==1)
+        {
+
+        }
+        else if (tableMatrix[2,0] == 1 && tableMatrix[2,1] == 1 && tableMatrix[2,2] ==1)
+        {
+
+        }
+        else if (tableMatrix[0,0] == 1 && tableMatrix[1,0] == 1 && tableMatrix[2,0] ==1)
+        {
+
+        }
+        else if (tableMatrix[0,1] == 1 && tableMatrix[1,1] == 1 && tableMatrix[2,1] ==1)
+        {
+            
+        }
+        else if (tableMatrix[0,2] == 1 && tableMatrix[1,2] == 1 && tableMatrix[2,2] ==1)
+        {
+
+        }
+        else if (tableMatrix[0,0] == 1 && tableMatrix[1,1] == 1 && tableMatrix[2,2] ==1)
+        {
+
+        }
+        else if (tableMatrix[0,2] == 1 && tableMatrix[1,1] == 1 && tableMatrix[2,0] ==1)
+        {
+
+        }
+    }
+
+    void AnnounceWinner()
+    {
+
     }
 }

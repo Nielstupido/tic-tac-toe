@@ -8,11 +8,13 @@ public class ButtonManager : MonoBehaviourPunCallbacks
     private int buttonNum;
     private ChipsManager chipsManager;
     private PlayerTurnManager playerTurnManager;
+    private GameArbiter gameArbiter;
 
     void Start()
     {
         chipsManager = FindObjectOfType<ChipsManager>();
         playerTurnManager = GetComponent<PlayerTurnManager>();
+        gameArbiter = FindObjectOfType<GameArbiter>();
     }
 
     public void PassButtonDets()
@@ -22,6 +24,7 @@ public class ButtonManager : MonoBehaviourPunCallbacks
             playerTurnManager.ToggleTouchInputCover();
             buttonNum = Convert.ToInt32(EventSystem.current.currentSelectedGameObject.name);
             photonView.RPC("DisableButton", RpcTarget.All);
+            gameArbiter.ButtonNumPressed = buttonNum;
             chipsManager.MoveChipTo(buttonNum);
         }
     }

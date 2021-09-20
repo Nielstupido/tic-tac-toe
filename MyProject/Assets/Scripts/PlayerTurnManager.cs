@@ -11,6 +11,18 @@ public class PlayerTurnManager : MonoBehaviourPunCallbacks
 
     public bool P1_turn { get{return p1turn;}}
 
+    public override void OnEnable()
+    {
+        ChipsManager.OnFinishedMovingChip += ToggleTouchInputCover;
+        ChipsManager.OnFinishedMovingChip += ToggleSwitchPlayer;
+    }
+
+    public override void OnDisable()
+    {
+        ChipsManager.OnFinishedMovingChip -= ToggleTouchInputCover;
+        ChipsManager.OnFinishedMovingChip -= ToggleSwitchPlayer;
+    }
+
     void Start()
     {
         p1turn = true;
