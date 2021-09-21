@@ -9,6 +9,7 @@ public class ButtonManager : MonoBehaviourPunCallbacks
     private ChipsManager chipsManager;
     private PlayerTurnManager playerTurnManager;
     private GameArbiter gameArbiter;
+    private GameObject pressedButton;
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class ButtonManager : MonoBehaviourPunCallbacks
         {
             playerTurnManager.ToggleTouchInputCover();
             buttonNum = Convert.ToInt32(EventSystem.current.currentSelectedGameObject.name);
+            pressedButton = EventSystem.current.currentSelectedGameObject;
             photonView.RPC("DisableButton", RpcTarget.All);
             gameArbiter.ButtonNumPressed = buttonNum;
             chipsManager.MoveChipTo(buttonNum);
@@ -32,6 +34,6 @@ public class ButtonManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void DisableButton()
     {
-        GameObject.Find(buttonNum.ToString()).SetActive(false);
+        pressedButton.SetActive(false);
     }
 }
