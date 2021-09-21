@@ -32,6 +32,6 @@ public class ButtonManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void DisableButton()
     {
-        EventSystem.current.currentSelectedGameObject.gameObject.SetActive(false);
+        GameObject.Find(buttonNum.ToString()).SetActive(false);
     }
 }
