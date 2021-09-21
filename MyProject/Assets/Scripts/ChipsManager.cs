@@ -39,8 +39,7 @@ public class ChipsManager : MonoBehaviour
         }
 
         playerChips.RemoveAt(0);
-        gameArbiter.CheckMatrix();
-        
         OnFinishedMovingChip();
+        gameArbiter.CheckMatrix();
     }
 }

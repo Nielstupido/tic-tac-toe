@@ -8,8 +8,6 @@ public class ChipSetParent : MonoBehaviourPunCallbacks
 
     void Start()
     {
-        Debug.Log("chipInstantiated");
-
         if (photonView.IsMine)
         {
             if (PlayerPrefs.GetInt("PlayerNum") == 1)
