@@ -2,10 +2,14 @@ using UnityEngine;
 
 public class GameArbiter : MonoBehaviour
 {
+    [SerializeField] private GameObject winnerWindow;
     private int[,] tableMatrix = new int[3,3];
     private int buttonNum;
+    private int winnerNum;
 
     public int ButtonNumPressed { set {buttonNum = value; MarkMatrix(); } }
+
+    public int WinnerNum { get{return winnerNum;}}
 
     void OnDisable()
     {
@@ -89,10 +93,11 @@ public class GameArbiter : MonoBehaviour
         {
 
         }
+        winnerNum = PlayerPrefs.GetInt("PlayerNum");
     }
 
     void AnnounceWinner()
     {
-
+        winnerWindow.SetActive(true);
     }
 }
