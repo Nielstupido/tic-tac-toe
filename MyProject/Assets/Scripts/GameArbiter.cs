@@ -3,7 +3,9 @@ using Photon.Pun;
 
 public class GameArbiter : MonoBehaviourPunCallbacks
 {
-    [SerializeField] private GameObject winnerWindow;
+    [SerializeField]private GameObject winnerWindow;
+    [SerializeField]private GameObject winnerBoard;
+    private GameEndManager gameEndManager;
     private int[,] tableMatrix = new int[3,3];
     private int buttonNum;
     private int winnerNum;
@@ -11,6 +13,11 @@ public class GameArbiter : MonoBehaviourPunCallbacks
 
     public int ButtonNumPressed { set {buttonNum = value; MarkMatrix(); } }
     public int WinnerNum { get{return winnerNum;}}
+
+    void Start()
+    {
+        gameEndManager = FindObjectOfType<GameEndManager>();
+    }
 
     void MarkMatrix()
     {
@@ -91,7 +98,11 @@ public class GameArbiter : MonoBehaviourPunCallbacks
         }
 
         if (isWinner)
+        {
             photonView.RPC("AnnounceWinner", RpcTarget.All, PlayerPrefs.GetInt("PlayerNum"));
+        }
+        else if (gameEndManager.TotalMoves == 6 && !isWinner)
+            gameEndManager.ConnectToEvent();
     }
 
     [PunRPC]
@@ -99,5 +110,6 @@ public class GameArbiter : MonoBehaviourPunCallbacks
     {
         winnerNum = playerNum;
         winnerWindow.SetActive(true);
+        winnerBoard.SetActive(true);
     }
 }

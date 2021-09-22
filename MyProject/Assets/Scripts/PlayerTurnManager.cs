@@ -6,7 +6,6 @@ public class PlayerTurnManager : MonoBehaviourPunCallbacks
 {
     [SerializeField]private Text playerTurnText;
     [SerializeField]private GameObject screenCover;
-    private ChipsManager chipsManager;
     private bool p1turn;
 
     public bool P1_turn { get{return p1turn;}}
@@ -17,7 +16,7 @@ public class PlayerTurnManager : MonoBehaviourPunCallbacks
         ChipsManager.OnFinishedMovingChip += ToggleSwitchPlayer;
     }
 
-    public override void OnDisable()
+    void OnDestroy()
     {
         ChipsManager.OnFinishedMovingChip -= ToggleTouchInputCover;
         ChipsManager.OnFinishedMovingChip -= ToggleSwitchPlayer;
@@ -26,7 +25,6 @@ public class PlayerTurnManager : MonoBehaviourPunCallbacks
     void Start()
     {
         p1turn = true;
-        chipsManager = FindObjectOfType<ChipsManager>();  
         Debug.Log("Game Start! /n Player 1's turn!");  
     }
 
