@@ -15,8 +15,8 @@ public class TextModifier : MonoBehaviour
         }
         else if (PlayerPrefs.GetInt("PlayerNum") == 2)
         {
-            player1text.fontSize = 99;
-            player1text.color = Color.yellow;
+            player2text.fontSize = 99;
+            player2text.color = Color.yellow;
         }
     }
 }
