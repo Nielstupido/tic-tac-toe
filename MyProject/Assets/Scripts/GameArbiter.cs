@@ -101,8 +101,10 @@ public class GameArbiter : MonoBehaviourPunCallbacks
         {
             photonView.RPC("AnnounceWinner", RpcTarget.All, PlayerPrefs.GetInt("PlayerNum"));
         }
-        else if (gameEndManager.TotalMoves == 6 && !isWinner)
-            gameEndManager.ConnectToEvent();
+        else if (gameEndManager.TotalMoves == 6)
+        {
+            //enable restricted movement
+        }
     }
 
     [PunRPC]

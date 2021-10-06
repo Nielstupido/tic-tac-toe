@@ -434,6 +434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 218226890}
   - component: {fileID: 218226891}
+  - component: {fileID: 218226892}
   m_Layer: 5
   m_Name: TextPlayerModifier
   m_TagString: Untagged
@@ -474,6 +475,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1text: {fileID: 832075332}
   player2text: {fileID: 1428047189}
+--- !u!114 &218226892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218226889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 5
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &246763469
 GameObject:
   m_ObjectHideFlags: 0
@@ -2230,7 +2253,6 @@ MonoBehaviour:
   - {fileID: 414026626}
   - {fileID: 1412792831}
   - {fileID: 1110781853}
-  playerChips: []
 --- !u!1 &1404679503
 GameObject:
   m_ObjectHideFlags: 0
@@ -3177,6 +3199,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5df8dc706a0bf1747ac91a9394f1fa23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  listButtons:
+  - {fileID: 2067093089}
+  - {fileID: 265683773}
+  - {fileID: 1729916742}
+  - {fileID: 2096089658}
+  - {fileID: 1989751338}
+  - {fileID: 6709386}
+  - {fileID: 414026626}
+  - {fileID: 1412792831}
+  - {fileID: 1110781853}
 --- !u!114 &1893842765
 MonoBehaviour:
   m_ObjectHideFlags: 0

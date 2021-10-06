@@ -1,20 +1,16 @@
 using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
 
 public class ChipsManager : MonoBehaviour
 {
     public delegate void DoneMovingChip();
     public static event DoneMovingChip OnFinishedMovingChip;
 
-    [SerializeField]private GameObject[] placeHolders;
     private PlayerTurnManager playerTurnManager;
     private GameArbiter gameArbiter;
     private Transform chipTransform;
     private float smoothing = 6f;
     private Vector3 targetPos;
-
-    public List<GameObject> playerChips = new List<GameObject>();
 
     void Start()
     {
@@ -22,11 +18,10 @@ public class ChipsManager : MonoBehaviour
         gameArbiter = FindObjectOfType<GameArbiter>();
     }
 
-    public void MoveChipTo(int btnNum)
+    public void MoveChipTo(GameObject pressedButton, GameObject selectedChip)
     {
-        chipTransform = playerChips[0].transform;
-
-        targetPos = placeHolders[btnNum-1].transform.position;
+        chipTransform = selectedChip.transform;
+        targetPos = pressedButton.transform.position;
         StartCoroutine("MoveToTargetPos");
     }   
 
@@ -38,7 +33,6 @@ public class ChipsManager : MonoBehaviour
             yield return null;
         }
 
-        playerChips.RemoveAt(0);
         gameArbiter.CheckMatrix();
         OnFinishedMovingChip();
     }
