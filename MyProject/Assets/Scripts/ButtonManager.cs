@@ -22,6 +22,7 @@ public class ButtonManager : MonoBehaviourPunCallbacks
         playerTurnManager = GetComponent<PlayerTurnManager>();
         gameArbiter = FindObjectOfType<GameArbiter>();
         gameEndManager = FindObjectOfType<GameEndManager>();
+        HideAvailableButtons();
     }
 
     public void ShowAvailableButtons(int currentButtonHolder)

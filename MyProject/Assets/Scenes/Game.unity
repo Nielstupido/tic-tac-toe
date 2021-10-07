@@ -977,6 +977,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &588191354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 588191355}
+  - component: {fileID: 588191356}
+  m_Layer: 5
+  m_Name: ChipChangeColorOnTap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &588191355
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588191354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1142221484}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &588191356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588191354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07670362cd42db5468ed0ffaba40579c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &703467165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,7 +1060,7 @@ RectTransform:
   - {fileID: 861055237}
   - {fileID: 1925346170}
   m_Father: {fileID: 1142221484}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1898,6 +1946,7 @@ RectTransform:
   - {fileID: 1652661911}
   - {fileID: 1404679504}
   - {fileID: 1212428344}
+  - {fileID: 588191355}
   - {fileID: 703467166}
   m_Father: {fileID: 1900162050}
   m_RootOrder: 0
@@ -2243,16 +2292,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d4577add6e1f0d47a743caf1d4c12a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeHolders:
-  - {fileID: 2067093089}
-  - {fileID: 265683773}
-  - {fileID: 1729916742}
-  - {fileID: 2096089658}
-  - {fileID: 1989751338}
-  - {fileID: 6709386}
-  - {fileID: 414026626}
-  - {fileID: 1412792831}
-  - {fileID: 1110781853}
 --- !u!1 &1404679503
 GameObject:
   m_ObjectHideFlags: 0
@@ -3199,7 +3238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5df8dc706a0bf1747ac91a9394f1fa23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listButtons:
+  availButtons:
   - {fileID: 2067093089}
   - {fileID: 265683773}
   - {fileID: 1729916742}

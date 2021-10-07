@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class ChipTapColorManager : MonoBehaviour
 {
-    private GameObject currentSelectedChip;
+    private GameObject currentSelectedChip = null;
 
     public GameObject CurrentSelectedChip 
     { 
