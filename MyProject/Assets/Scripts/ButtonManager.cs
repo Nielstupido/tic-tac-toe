@@ -7,9 +7,11 @@ using Photon.Pun;
 public class ButtonManager : MonoBehaviourPunCallbacks
 {
     [SerializeField]private List<GameObject> availButtons;
-    private List<GameObject> unAvailButtons;
+    private List<GameObject> unAvailButtons = new List<GameObject>();
     private ChipsManager chipsManager;
     private PlayerTurnManager playerTurnManager;
+    private MovingChipsManager movingChipsManager;
+    private ChipTapColorManager chipTapColorManager;
     private GameEndManager gameEndManager;
     private GameArbiter gameArbiter;
     private GameObject pressedButton, selectedChip;
@@ -18,6 +20,7 @@ public class ButtonManager : MonoBehaviourPunCallbacks
 
     void Start()
     {
+        chipTapColorManager = FindObjectOfType<ChipTapColorManager>();
         chipsManager = FindObjectOfType<ChipsManager>();
         playerTurnManager = GetComponent<PlayerTurnManager>();
         gameArbiter = FindObjectOfType<GameArbiter>();
@@ -141,30 +144,47 @@ public class ButtonManager : MonoBehaviourPunCallbacks
 
     public void PassButtonDets()
     {
-        if (playerTurnManager.P1_turn && PlayerPrefs.GetInt("PlayerNum") == 1 
-            || !playerTurnManager.P1_turn && PlayerPrefs.GetInt("PlayerNum") == 2)
+        movingChipsManager = selectedChip.GetComponent<MovingChipsManager>();
+        gameArbiter.MarkMatrix(movingChipsManager.CurrentButtonHolder);
+        HideAvailableButtons();
+        gameEndManager.AddMoveCount();
+        playerTurnManager.ToggleTouchInputCover();
+        pressedButton = EventSystem.current.currentSelectedGameObject.gameObject;
+        
+        photonView.RPC("DisableButton", RpcTarget.All, Convert.ToInt32(pressedButton.name));
+        photonView.RPC("EnableButton", RpcTarget.All, movingChipsManager.CurrentButtonHolder);
+        
+        gameArbiter.MarkMatrix(Convert.ToInt32(pressedButton.name));
+        chipsManager.MoveChipTo(pressedButton, selectedChip);
+        chipTapColorManager.ChangeToDefaultColor();
+        movingChipsManager.IsChipMoved = true;
+        movingChipsManager.CurrentButtonHolder = Convert.ToInt32(pressedButton.name);
+    }
+
+    [PunRPC]
+    void DisableButton(int buttonNum)
+    {
+        foreach(GameObject btn in availButtons)
         {
-            gameEndManager.AddMoveCount();
-            playerTurnManager.ToggleTouchInputCover();
-            pressedButton = EventSystem.current.currentSelectedGameObject;
-            photonView.RPC("DisableButton", RpcTarget.All, pressedButton);
-            gameArbiter.ButtonNumPressed = Convert.ToInt32(pressedButton.name);
-            chipsManager.MoveChipTo(pressedButton, selectedChip);
-            selectedChip.GetComponent<MovingChipsManager>().CurrentButtonHolder = Convert.ToInt32(pressedButton.name);
+            if(btn.name.Equals(buttonNum.ToString()))
+            {
+                btn.SetActive(false);
+                unAvailButtons.Add(btn);
+                availButtons.Remove(btn);
+                return;
+            }
         }
     }
 
     [PunRPC]
-    void DisableButton(GameObject pressedBtn)
+    void EnableButton(int buttonNum)
     {
-        pressedBtn.SetActive(false);
-
-        foreach(GameObject btn in availButtons)
+        foreach(GameObject btn in unAvailButtons)
         {
-            if(btn.name.Equals(pressedBtn.name))
+            if(btn.name.Equals(buttonNum.ToString()))
             {
-                availButtons.Remove(btn);
-                unAvailButtons.Add(btn);
+                availButtons.Add(btn);
+                unAvailButtons.Remove(btn);
                 return;
             }
         }

@@ -7,11 +7,9 @@ public class GameArbiter : MonoBehaviourPunCallbacks
     [SerializeField]private GameObject winnerBoard;
     private GameEndManager gameEndManager;
     private int[,] tableMatrix = new int[3,3];
-    private int buttonNum;
     private int winnerNum;
     private bool isWinner = false;
 
-    public int ButtonNumPressed { set {buttonNum = value; MarkMatrix(); } }
     public int WinnerNum { get{return winnerNum;}}
 
     void Start()
@@ -19,43 +17,88 @@ public class GameArbiter : MonoBehaviourPunCallbacks
         gameEndManager = FindObjectOfType<GameEndManager>();
     }
 
-    void MarkMatrix()
+    public void MarkMatrix(int buttonNum)
     {
         switch (buttonNum)
         {
             case 1:
+                if(tableMatrix[0,0] == 1)
+                {
+                    tableMatrix[0,0] = 0;
+                    break;
+                }
                 tableMatrix[0,0] = 1;
                 break;
             
             case 2:
+                if(tableMatrix[0,1] == 1)
+                {
+                    tableMatrix[0,1] = 0;
+                    break;
+                }
                 tableMatrix[0,1] = 1;
                 break;
             
             case 3:
+                if(tableMatrix[0,2] == 1)
+                {
+                    tableMatrix[0,2] = 0;
+                    break;
+                }
                 tableMatrix[0,2] = 1;
                 break;
             
             case 4:
+                if(tableMatrix[1,2] == 1)
+                {
+                    tableMatrix[1,2] = 0;
+                    break;
+                }
                 tableMatrix[1,2] = 1;
                 break;
             
             case 5:
+                if(tableMatrix[1,1] == 1)
+                {
+                    tableMatrix[1,1] = 0;
+                    break;
+                }
                 tableMatrix[1,1] = 1;
                 break;
             
             case 6:
+                if(tableMatrix[1,0] == 1)
+                {
+                    tableMatrix[1,0] = 0;
+                    break;
+                }
                 tableMatrix[1,0] = 1;
                 break;
             
             case 7:
+                if(tableMatrix[2,0] == 1)
+                {
+                    tableMatrix[2,0] = 0;
+                    break;
+                }
                 tableMatrix[2,0] = 1;
                 break;
             
             case 8:
+                if(tableMatrix[2,1] == 1)
+                {
+                    tableMatrix[2,1] = 0;
+                    break;
+                }
                 tableMatrix[2,1] = 1;
                 break;
             
             case 9:
+                if(tableMatrix[2,2] == 1)
+                {
+                    tableMatrix[2,2] = 0;
+                    break;
+                }
                 tableMatrix[2,2] = 1;
                 break;
         }
@@ -101,10 +144,10 @@ public class GameArbiter : MonoBehaviourPunCallbacks
         {
             photonView.RPC("AnnounceWinner", RpcTarget.All, PlayerPrefs.GetInt("PlayerNum"));
         }
-        else if (gameEndManager.TotalMoves == 6)
+        /*else if (gameEndManager.TotalMoves == 6)
         {
-            //enable restricted movement
-        }
+            enable restricted movement
+        }*/
     }
 
     [PunRPC]
